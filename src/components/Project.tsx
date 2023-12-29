@@ -32,8 +32,18 @@ const Project = (props: projectType) => {
 
       <div className="bg-white p-3">
         <div className="flex justify-between mt-5">
-          <Link href={props.preview}>Live Preview</Link>
-          <Link href={props.github}>View Code</Link>
+          <Link
+            className="bg-black rounded text-white p-2 hover:bg-slate-700 transition-all"
+            href={props.preview}
+          >
+            Live Preview
+          </Link>
+          <Link
+            className="border-2 border-black rounded p-2 hover:bg-slate-200 transition-all"
+            href={props.github}
+          >
+            View Code
+          </Link>
         </div>
       </div>
     </div>
