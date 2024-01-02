@@ -11,6 +11,9 @@ const NavBar = () => {
         <Link href="#about">About</Link>
         <Link href="#projects">Projects</Link>
         <Link href="#contact">Contact</Link>
+        <Link href="https://docs.google.com/document/d/1X4oe-bsqWbLnHTLBVJ2QwcQ3-XD5NvmGue2p8o5otDM/edit?usp=sharing">
+          Resume
+        </Link>
       </div>
     </div>
   );
